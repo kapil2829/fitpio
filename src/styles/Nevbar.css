@@ -5,7 +5,7 @@
 }
 .navContainer{
     width:20%;
-    min-height:113vh;
+    height:113vh;
     background-color: rgb(6, 6, 39);
     color:white;
     display:flex;
