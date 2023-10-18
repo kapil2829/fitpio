@@ -77,50 +77,90 @@
     margin-left: 10px;
 }
 
-/* Your existing styles */
 
-/* Media query for phone-sized screens */
 @media (max-width: 480px) {
+    /* Reset some common styles */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* Make the main content area stack vertically */
+    .mainpage {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Adjust styles for the right part of the page */
+    .rightpartmain {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        background-color: rgb(238, 235, 235);
+    }
+
+    /* Adjust styles for the bottom section */
     .bottommain {
-        margin-top: 10vh; /* Adjust margin-top as needed */
-        width: 100%; /* Occupy full width */
-        height: auto; /* Adjust height as needed */
-        margin-left: 0; /* Remove left margin for full width */
+        margin: 10px 0;
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        border-radius: 10px;
     }
 
-    .bottomtop {
-        flex-direction: column; /* Stack items vertically */
-        margin-bottom: 10px; /* Adjust margin as needed */
+    /* Stack elements vertically in the bottom section */
+    .bottomtop,
+    .bottomtopright,
+    .bottomheads,
+    .bottomheadsmiddle,
+    .bottombottom,
+    .leftbottom,
+    .rightbottom,
+    .searchmain,
+    .searchmain-arrow {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
     }
 
+    /* Remove or adjust some specific styles */
     .bottomheads {
-        flex-direction: column; /* Stack items vertically */
-        margin-bottom: 10px; /* Adjust margin as needed */
-        border-bottom: none; /* Remove the border */
-    }
-
-    .bottomheadsmiddle {
-        width: 100%; /* Occupy full width */
-    }
-
-    .leftbottom, .rightbottom {
-        width: 100%; /* Occupy full width */
-        margin-top: 10px; /* Add spacing */
+        margin-bottom: 10px;
+        border-bottom: none;
     }
 
     .rightbottomp2 {
-        margin-right: 0; /* Remove right margin */
+        margin-right: 0;
     }
-    
+
+    .leftbottom img {
+        margin-right: 0;
+    }
+
+    /* Adjust font size for better readability */
+    .product {
+        font-size: 18px;
+    }
+
+    .colorgray {
+        font-size: 12px;
+    }
+
+    /* Adjust background colors and margins for better spacing */
     .searchmain {
-        margin-right: 0; /* Remove margin-right */
+        background-color: rgb(249, 245, 245);
+        margin: 10px 0;
     }
 
     .searchmain-arrow {
-        margin-left: 0; /* Remove margin-left */
+        background-color: rgb(248, 248, 248);
+        border-radius: 3px;
+        margin: 10px 0;
     }
-    
+
     .searchmain-arrow img {
-        margin-left: 0; /* Remove margin-left */
+        margin-left: 0;
     }
 }
+
