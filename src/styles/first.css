@@ -34,3 +34,16 @@
 .reddown{
     color: red;
    }
+
+
+   @media (max-width: 480px) {
+    .firstmain {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        height: auto; /* Adjust height as needed */
+    }
+
+    .firstinner {
+        width: 100%; /* Occupy full width on smaller screens */
+        margin-top: 10px; /* Add spacing between items */
+    }
+}

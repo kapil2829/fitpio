@@ -56,3 +56,18 @@ h3 img{
     border-radius:5px;
 }
 
+@media (max-width: 480px) {
+    /* Styles for phone-sized screens (up to 480px wide) */
+    .navContainer {
+        width: 100%; /* Adjust the width to occupy the entire screen width */
+        min-height: auto; /* Adjust the minimum height as needed */
+        padding: 10px; /* Adjust the padding as needed for smaller screens */
+    }
+
+    /* Add additional styles or modifications for phone-sized screens */
+    .navElement {
+        height: 30px; /* Adjust the height of navigation elements */
+    }
+    
+    /* Modify other styles as needed for better display on phones */
+}

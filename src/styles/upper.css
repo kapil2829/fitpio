@@ -25,3 +25,22 @@
     align-items: center;
     justify-content:space-between;
 }
+
+@media (max-width: 480px) {
+    .uppermain {
+        padding: 10px; /* Reduce padding for smaller screens */
+        height: auto; /* Adjust height as needed */
+        flex-direction: column; /* Stack items vertically */
+    }
+
+    .searchmain {
+        width: 100%; /* Occupy full width */
+        margin-top: 10px; /* Add spacing */
+    }
+
+    .leftupper {
+        width: 100%; /* Occupy full width */
+        margin-top: 10px; /* Add spacing */
+        justify-content: space-between; /* Align items as needed */
+    }
+}

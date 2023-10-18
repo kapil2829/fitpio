@@ -8,3 +8,18 @@
     width:80%;
     background-color:rgb(238, 235, 235);
 }
+
+/* Your existing styles */
+
+/* Media query for phone-sized screens */
+@media (max-width: 480px) {
+    .mainpage {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+    }
+
+    .rightpartmain {
+        width: 100%; /* Occupy full width */
+        height: auto; /* Adjust height as needed */
+        padding: 10px; /* Adjust padding as needed */
+    }
+}

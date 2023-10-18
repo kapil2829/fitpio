@@ -76,3 +76,51 @@
 .searchmain-arrow img{
     margin-left: 10px;
 }
+
+/* Your existing styles */
+
+/* Media query for phone-sized screens */
+@media (max-width: 480px) {
+    .bottommain {
+        margin-top: 10vh; /* Adjust margin-top as needed */
+        width: 100%; /* Occupy full width */
+        height: auto; /* Adjust height as needed */
+        margin-left: 0; /* Remove left margin for full width */
+    }
+
+    .bottomtop {
+        flex-direction: column; /* Stack items vertically */
+        margin-bottom: 10px; /* Adjust margin as needed */
+    }
+
+    .bottomheads {
+        flex-direction: column; /* Stack items vertically */
+        margin-bottom: 10px; /* Adjust margin as needed */
+        border-bottom: none; /* Remove the border */
+    }
+
+    .bottomheadsmiddle {
+        width: 100%; /* Occupy full width */
+    }
+
+    .leftbottom, .rightbottom {
+        width: 100%; /* Occupy full width */
+        margin-top: 10px; /* Add spacing */
+    }
+
+    .rightbottomp2 {
+        margin-right: 0; /* Remove right margin */
+    }
+    
+    .searchmain {
+        margin-right: 0; /* Remove margin-right */
+    }
+
+    .searchmain-arrow {
+        margin-left: 0; /* Remove margin-left */
+    }
+    
+    .searchmain-arrow img {
+        margin-left: 0; /* Remove margin-left */
+    }
+}

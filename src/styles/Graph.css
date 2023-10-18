@@ -16,3 +16,26 @@
     border-radius:10px;
     width:30%;
 }
+
+
+/* Your existing styles */
+
+/* Media query for phone-sized screens */
+@media (max-width: 480px) {
+    .maingraph {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        height: auto; /* Adjust height as needed */
+        padding: 10px; /* Adjust padding as needed */
+    }
+
+    .leftimg, .rightimg {
+        width: 100%; /* Occupy full width on smaller screens */
+        height: auto; /* Adjust height as needed */
+        border-radius: 0; /* Remove border-radius if necessary */
+    }
+    
+    .rightimg {
+        margin-top: 10px; /* Add spacing between the two images if required */
+    }
+}
+
