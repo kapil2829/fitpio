@@ -1,0 +1,36 @@
+.firstmain{
+    width:100%;
+    height:25vh;
+    padding:20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.firstinner{
+    width:23%;
+    height:100%;
+    display:flex;
+    flex-direction:row;
+    border-radius:10px;
+    align-items:center;
+    background-color: white;
+}
+
+
+.greenup{
+    color: green;
+    font-weight: bold;
+
+}
+
+.small{
+    color: rgb(176, 173, 173);
+    font-size: 10px;
+}
+.bold{
+    font-size: 20px;
+    font-weight: bold;
+}
+.reddown{
+    color: red;
+   }

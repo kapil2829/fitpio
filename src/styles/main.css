@@ -1,0 +1,10 @@
+.mainpage{
+    display:flex;
+    justify-content:space-between;
+}
+.rightpartmain{
+    padding:10px;
+    height:113vh;
+    width:80%;
+    background-color:rgb(238, 235, 235);
+}

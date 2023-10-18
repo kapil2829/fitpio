@@ -1,0 +1,27 @@
+.uppermain{
+    padding:30px;
+    width:100%;
+    height:10vh;
+    display:flex;
+    justify-content: space-between;
+}
+.searchmain{
+    width:200px;
+    height:20px;
+    background-color: white;
+    border-radius:5px;
+}
+.searchinput{
+    border:none;
+}
+.fa-solid{
+    font-size:10px;
+    margin-left:10px;
+    margin-right:2px;
+}
+.leftupper{
+    width:120px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
